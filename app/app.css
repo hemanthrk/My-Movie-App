@@ -1,4 +1,65 @@
 /* app css stylesheet */
+.logo{
+  color: white;
+  margin-top: 2px;
+
+}
+.logo_img{
+  width: 4%;
+}
+
+.text_button{
+  float: right;
+}
+
+.form-control{
+  width: 60%;
+  display: inline-block;
+  margin: 8px 0 2px 0;
+}
+
+.btn-outline-success{
+  margin-left: 4px;
+  display: inline-block;
+}
+
+.bg-dark{
+  background-color: #343a40!important;
+}
+
+.movie-info{
+  float: right;
+}
+
+div.poster{
+  display: block;
+  width :90%;
+  height: 420px;
+  z-index: 2;
+  position: absolute;
+
+}
+
+div.inner_column{
+  width: 800px;
+  z-index: 0;
+}
+
+.movies {
+
+  background-color: white;
+  border: 1px solid black;
+  float: left;
+  height: 452px;
+  margin-bottom: 2em;
+  margin-right: 3em;
+  padding: 2em;
+  width: 100%;
+  border-radius: 5px;
+  content: '';
+  color: white;
+  z-index: -1
+}
 
 .menu {
   list-style: none;

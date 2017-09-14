@@ -1,0 +1,38 @@
+
+			<div class="heading">
+				<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">My-Movie-App</a>
+
+      <span class="logo"> Powered By: <img class="logo_img" src="https://www.themoviedb.org/assets/static_cache/41bdcf10bbf6f84c0fc73f27b2180b95/images/v4/logos/91x81.png"></span>
+      
+
+      <div class="col-md-4 text_button">
+        
+        
+          <span><input class="form-control"  type="text" placeholder="Find Movies, TV Shows and more.." aria-label="Search"><button class="btn btn-outline-success" type="submit" ng-click="clickMe()">Search</button>
+          </span>
+        
+      </div>
+    </nav>
+			</div>
+			<div class="container-fluid">
+		
+			<div class="movies"  ng-style={{path}} >
+				<div class="inner_column">
+				<section class="images">
+				<div class="poster" back-img={{}}>
+				<div class="col-md-6 movie-info">
+					<h4>{{movie.original_title}} </h4>
+					<p><b>OverView: </b> {{movie.overview}}</p>
+					<p><b>Release Date:</b> {{movie.release_date}}</p>
+					</div>
+				</div>
+				
+					</section>
+				</div>
+				
+			</div>
+
+			
+	
+</div>
