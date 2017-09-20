@@ -3,9 +3,9 @@
 // Declare app level module which depends on views, and components
 angular.module('myApp', [
   'ngRoute',
-  'myApp.view1',
-  'myApp.view2',
-  'myApp.version',
+  
+  
+  
   'myApp.temp'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
@@ -28,16 +28,7 @@ controller('myApp.controller',['$scope','$http', 'GETMOVIE',function($scope, $ht
 					$scope.backimgu = 'https://image.tmdb.org/t/p/w300_and_h450_bestv2'+$scope.posterpath;
 					$scope.backgroundurl = 'https://image.tmdb.org/t/p/w1400_and_h450_bestv2'+$scope.backgroundpath;
 
-					// $scope.posterp = {
-     // 					background: 'url("https://image.tmdb.org/t/p/w300_and_h450_bestv2'+$scope.posterpath+'") no-repeat'
-     // 				};
-
-				
-
-     				// $http.get('https://image.tmdb.org/t/p/w300_and_h450_bestv2' + $scope.posterpath).then(function(img){
-     				// 	console.log("img is ",img);
-     				// 	$scope.posterp = img;
-     				// });
+					
 
 				});
 
@@ -54,12 +45,7 @@ controller('myApp.controller',['$scope','$http', 'GETMOVIE',function($scope, $ht
 
 				
 
-				// $http.get('https://api.themoviedb.org/3/search/multi?api_key=2d7ae88493c45364c094cab420adf070&language=en-US&query=shawshank').then(function(response) {
-    //     		//self.movie = response.data;
-    //    			 console.log(response.data.results[0]);
-    //    			 $scope.movie = response.data.results[0];
-    //    			 console.log($scope);
-    //  			 });
+				
 
 	 
 }]).
