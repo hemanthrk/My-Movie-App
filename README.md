@@ -1,0 +1,1 @@
+This Angular JS (1.x) application makes use of the TMDB Web Service API to get information about Movies and TV Shows. 
